@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
 import java.util.UUID;
 
 @Data
@@ -21,4 +22,5 @@ public class Floor {
     private boolean isLightsAvailable;
     private boolean isDustbinAvailable;
     private boolean isWashingMachineAvailable;
+    private List<Room> rooms;
 }

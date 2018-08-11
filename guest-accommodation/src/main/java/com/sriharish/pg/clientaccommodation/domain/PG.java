@@ -30,4 +30,5 @@ public class PG {
     private boolean isDainingAvailable;
     private boolean isSofaAvailable;
     private List<Staff> cheffDetails;
+    private List<Block> blocks;
 }

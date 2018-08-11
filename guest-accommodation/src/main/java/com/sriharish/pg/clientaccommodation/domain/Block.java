@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
 import java.util.UUID;
 
 @Data
@@ -18,4 +19,5 @@ public class Block {
     private int totalFloors;
     private boolean isSecurityAvailable;
     private boolean isParkingAvailable;
+    private List<Floor> floors;
 }
